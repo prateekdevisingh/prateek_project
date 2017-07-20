@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <!--android:layout_below="@+id/layoutTitle"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/recyclerViewContent"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_16"
+        android:background="@color/black_12" />
+
+    <!--<LinearLayout
+        android:id="@+id/layoutSeeAll"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_4"
+        android:background="@drawable/white_selector"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5">
+
+        <com.videotap.android.player.customView.TextViewRoboto
+            android:id="@+id/tvSeeAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/margin_5"
+            android:text="@string/home_see_all"
+            android:textAllCaps="true"
+            android:textColor="@color/black_54"
+            android:textSize="@dimen/text_size_12"
+            app:font="medium">
+
+        </com.videotap.android.player.customView.TextViewRoboto>
+
+
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/home_go_blue_vt" />
+
+
+    </LinearLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/viewBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_84"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:layout_marginTop="38dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_20" />
+
+            <TextView
+                android:id="@+id/tvHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>-->
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="@dimen/margin_4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            &lt;!&ndash;<ImageView
+                android:id="@+id/ivIndicator"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/home_tick_blue_vt" />
+
+            <com.videotap.android.player.customView.TextViewRoboto
+                android:id="@+id/tvTitleCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-20dp"
+                android:layout_toRightOf="@+id/ivIndicator"
+                android:background="@drawable/white_selector_trans"
+                android:gravity="center"
+                android:paddingLeft="@dimen/margin_8"
+                android:paddingRight="@dimen/margin_8"
+                android:text="@string/genre"
+                android:textAllCaps="true"
+                android:textColor="@color/black_87"
+                android:textSize="@dimen/text_size_14"
+                android:transitionName="@string/transition_title"
+                app:font="medium" />&ndash;&gt;
+
+        </LinearLayout>
+
+    </RelativeLayout>-->
+
+</RelativeLayout>

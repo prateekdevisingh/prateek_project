@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DemoVideoTap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="content_not_available">Currently no content available</string>
+    <string name="transition_toolbar">Transition Toolbar</string>
+    <string name="item_percent_off">77% OFF</string>
+    <string name="item_name">Surf Excel Matic Top Load Detergent Powder</string>
+    <string name="item_price">Rs : 439</string>
+    <string name="item_add">ADD</string>
+    <string name="item_quantity">Quantity</string>
+    <string name="item_kg">1 kg</string>
+    <string name="item_500g">500 g</string>
+    <string name="item_250g">250 g</string>
+    <string name="item_750g">750 g</string>
+    <string name="key_feature">Key features</string>
+    <string name="quantity">Quantity</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="content">Contents</string>
+    <string name="key_feature_data">Designed to work in high water level (40 liters) of top load washing machines\nDissolves completely leaving no residue on your cloths on in the machine</string>
+    <string name="quantity_data">2 kg</string>
+    <string name="content_data">Surf Excel Matic Top Load Detergent Powder - 2 kg</string>
+    <string name="disclaimer_data">Every effort is made to maintain accuracy of all information .
+ However, actual product packaging and materials may
+ contain more and/ or different information.
+ it is recommended not to soley rely on the information presenetd</string>
+    <string name="item_rate_value">5</string>
+    <string name="item_shop_name">Super market shop - Krishna nagar</string>
+</resources>
